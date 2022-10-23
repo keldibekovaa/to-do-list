@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+ul{
+    text-align: left;
+    padding-left: 10%;
+    padding: 7%;
+    font-size: 2rem;
+    list-style: circle;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+.row{
+    justify-content: center;
+}
+.form-group{
+    text-align: center;
+}
+.button { flex: 1 1 auto;
+margin: 10px;
+padding: 30px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;
+/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+box-shadow:0 0 20px #eee;
+border-radius:10px;
+}
+
+* Demo Stuff End  *
+
+*  Magic Stuff Start *
+
+.input-group:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+.input-group {
+    margin-top: auto;
+    justify-content: center;
+    padding: 50px
+;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+.btn-primary{
+    background-image: linear-gradient(to right, #66c964 0%, #751379 51%, #299AD9FF 100%);
+
+}
+.delete_btn {
+    border: blue;
+    box-shadow: inset 0 0 0 0.3rem rgb(255 255 255 / 20%);
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f6d365 0%, #518b98 78%, #395a91);
+
+}
+.form-control{
+    animation: move ease-in-out infinite;
+
+}
